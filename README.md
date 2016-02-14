@@ -22,7 +22,7 @@ npm install sentiment-swedish
 
 ### Usage
 ```javascript
-var sentiment = require('sentiment');
+var sentiment = require('sentiment-swedish');
 
 var r1 = sentiment('Katter är dumma.');
 console.dir(r1);        // Score: -2, Comparative: -0.666
@@ -34,7 +34,7 @@ console.dir(r2);        // Score: 4, Comparative: 1
 ### Adding / overwriting words
 You can append and/or overwrite values from AFINN by simply injecting key/value pairs into a sentiment method call:
 ```javascript
-var sentiment = require('sentiment');
+var sentiment = require('sentiment-swedish');
 
 var result = sentiment('Katter är totalt fantastiska!', {
     'katter': 5,
