@@ -1,5 +1,8 @@
 {
-  "author": "Alex Gustafsson, Andrew Sliwinski <andrewsliwinski@acm.org>",
+  "author": "Andrew Sliwinski <andrewsliwinski@acm.org>",
+  "contributors": [
+    {"name": "Alex Gustafsson", "url": "https://github.com/AlexGustafsson"}
+  ],
   "name": "sentiment-swedish",
   "description": "Swedish translated, AFINN-based sentiment analysis for Node.js",
   "version": "1.0.6",
