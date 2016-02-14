@@ -22,14 +22,14 @@ test('spec', function (t) {
     t.end();
 });
 
-test('english', function (t) {
+test('swedish', function (t) {
     t.deepEqual(
-        tokenize('The cat went over the wall.'),
-        ['the', 'cat', 'went', 'over', 'the', 'wall']
+        tokenize('Katten kom över väggen'),
+        ['katten', 'kom', 'över', 'väggen']
     );
     t.deepEqual(
-        tokenize('That\'ll cause problems for the farmer\'s pigs'),
-        ['thatll', 'cause', 'problems', 'for', 'the', 'farmers', 'pigs']
+        tokenize('Det kommer att orsaka problem för bondens grisar'),
+        ['det', 'kommer', 'att', 'orsaka', 'problem', 'för', 'bondens', 'grisar']
     );
     t.end();
 });

@@ -17,7 +17,7 @@ var sentimental = require('Sentimental');
 /**
  * Test data
  */
-var stringShort = 'This cat is totally awesome';
+var stringShort = 'Den här katten är totalt fantastisk';
 var stringLong = require('../fixtures/corpus');
 
 /**
