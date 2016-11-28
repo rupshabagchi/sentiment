@@ -4,7 +4,7 @@ function rand (limit) {
 
 function createRandomWord (length) {
     var consonants = 'bcdfghjklmnpqrstvwxyz!@#$%^&*()_+":;\'?><~`';
-    var vowels = 'aeiou';
+    var vowels = 'aeiouåäö';
     var word = '';
 
     // Split
