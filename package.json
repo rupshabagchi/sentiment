@@ -23,16 +23,14 @@
   ],
   "main": "./lib/index.js",
   "scripts": {
-    "test": "make test",
-    "build": "node ./build/index.js"
+    "test": "make test"
   },
-  "dependencies": {},
   "devDependencies": {
-    "Sentimental": "1.0.1",
     "async": "^2.1.4",
+    "Sentimental": "1.0.1",
     "benchmark": "^2.1.0",
     "eslint": "^3.2.1",
-    "tap": "^7.1.2"
+    "tap": "^10.1.0"
   },
   "engines": {
     "node": ">=4.0"
