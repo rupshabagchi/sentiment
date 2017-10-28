@@ -1,7 +1,7 @@
 var test = require('tap').test;
 var sentiment = require('../../lib/index');
 
-var dataset = 'Hey you worthless scumbag 😦';
+var dataset = 'Hej din värdelösa skit 😦';
 var result = sentiment(dataset);
 
 test('synchronous negative with emoji', function (t) {

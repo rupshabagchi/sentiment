@@ -1,26 +1,32 @@
 {
   "author": "Andrew Sliwinski <andrewsliwinski@acm.org>",
-  "name": "sentiment",
-  "description": "AFINN-based sentiment analysis for Node.js",
-  "version": "4.0.0",
-  "license": "MIT",
-  "homepage": "https://github.com/thisandagain/sentiment",
+  "contributors": [
+    {
+      "name": "Alex Gustafsson",
+      "url": "https://github.com/AlexGustafsson"
+    }
+  ],
+  "name": "sentiment-swedish",
+  "description": "Swedish translated, AFINN-based sentiment analysis for Node.js",
+  "version": "1.1.0",
+  "homepage": "https://github.com/AlexGustafsson/sentiment",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thisandagain/sentiment.git"
+    "url": "https://github.com/AlexGustafsson/sentiment"
   },
   "keywords": [
     "sentiment",
     "analysis",
     "nlp",
-    "sentiment analysis"
+    "sentiment analysis",
+    "swedish"
   ],
   "main": "./lib/index.js",
   "scripts": {
     "test": "make test"
   },
   "devDependencies": {
-    "async": "^2.1.5",
+    "async": "^2.1.4",
     "Sentimental": "1.0.1",
     "benchmark": "^2.1.0",
     "eslint": "^3.2.1",

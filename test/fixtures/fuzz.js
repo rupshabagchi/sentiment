@@ -4,7 +4,7 @@ function rand (limit) {
 
 function createRandomWord (length) {
     var consonants = 'bcdfghjklmnpqrstvwxyz!@#$%^&*()_+":;\'?><~`';
-    var vowels = 'aeiou';
+    var vowels = 'aeiouåäö';
     var word = '';
 
     // Split
@@ -15,7 +15,7 @@ function createRandomWord (length) {
     for (var i = 0; i < length / 2; i++) {
         var randConsonant = consonants[rand(consonants.length)];
         var randVowel = vowels[rand(vowels.length)];
-        
+
         word += (i===0) ? randConsonant.toUpperCase() : randConsonant;
         word += i*2<length-1 ? randVowel : '';
     }
